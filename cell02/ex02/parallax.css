@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Parallax base */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* First image */
+.img1 {
+    background-image: url("https://images.unsplash.com/photo-1507149833265-60c372daea22");
+}
+
+/* Second image */
+.img2 {
+    background-image: url("https://images.unsplash.com/photo-1517849845537-4d257902454a");
+}
+
+/* Centered text */
+.center-text {
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+
+/* Middle black block */
+.content {
+    height: 300px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 1.5em;
+}
