@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.title {
+    margin: 20px 0;
+    font-size: 1.4em;
+}
+
+/* Invisible table */
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-table td {
+    padding: 8px 0;
+}
+
+/* Profile picture */
+.avatar {
+    width: 100%;
+    height: auto;
+}
+
+/* Login */
+.login {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* Description */
+.desc {
+    color: gray;
+    font-size: 0.95em;
+}
+
+/* Location */
+.location {
+    font-size: 0.9em;
+}
+
+/* Social icons */
+.social img {
+    width: 22px;
+    margin: 0 5px;
+}
+
+/* Contact button */
+.contact-btn {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #333;
+}
