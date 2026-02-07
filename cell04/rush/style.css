@@ -1,0 +1,158 @@
+  body {
+    background-image: url(bg.png);
+    margin: 0;
+    font-family: "fahkwang 25", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    overflow: hidden;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    position: fixed; /*ไม่ขยับ*/
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงา*/
+    z-index: 1000; /* weight หน้าหลัง */
+}
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav li{
+    height: 50px;
+  }
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  nav li:first-child{
+    margin-right: auto;
+  }
+  .home{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: white;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* จัดแกน*/
+    align-items: center; /* จัดแกนตั้ง */
+    flex-wrap: wrap; /* ขึ้นบรรทัดถ้าไม่พอ */
+    height: 100%; 
+    padding: 20px; 
+    gap: 20px; 
+}
+  
+  
+  .img-button img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  
+  .img-button img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+.content-container img {
+  flex-shrink: 0; /*กันหด*/
+  border-radius: 10px;
+}
+
+.text-content {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.img-wrapper {
+    text-align: center; 
+    max-width: 200px; 
+}
+
+.img-button img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-button img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.img-text {
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: #ffffff; 
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.home-content .logo {
+    width: 150px; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+.text-section {
+    flex-grow: 1;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1855A4;
+}
+
+.home-content h3 {
+    font-size: 2rem;
+    color: #ffa500;
+}
+
+.home-content a {
+    font-size: 1.5rem;
+    display: flex;
+    color: #50586C;
+}
+
+.pic-mid{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
